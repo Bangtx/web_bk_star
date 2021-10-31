@@ -1,21 +1,18 @@
 <template>
   <div class="home">
-    <header-b-k></header-b-k>
+    aaaa
   </div>
 </template>
 
 <script lang="ts">
 import {defineComponent } from "@vue/composition-api";
-import HeaderBK from "@/components/Header/index.vue";
 
-const Home = defineComponent({
-  components: {
-    HeaderBK
-  },
+const HeaderBK = defineComponent({
   setup() {
+    console.log('sssssss')
     return {};
   },
 });
 
-export default Home;
+export default HeaderBK
 </script>
